@@ -77,11 +77,30 @@ const sendEmail = (e) =>{
     contactMessage.classList.add('color-red')
 
     //show message
-    contactMessage.textContent = 'Write all the input fields  '
+    contactMessage.textContent = 'Write all the input fields 📩'
     }
     else{
       //serviceID - template - #form - publickey
-      
+      emailjs.sendForm('service_84w4png','template_nmm5yfe','#contact-form','52C7jckZftzVWuBwc')
+      .then(() =>{
+        //show message and add color
+
+        contactMessage.classList.add('color-blue')
+        contactMessage.textContent = 'Message sent ✅'
+
+        //Remove message after five seconds
+        setTimeout(() => {
+          contactMessage.textContent = ''
+        }, 5000)
+
+      }, (error) =>{
+        alert('OOP! SOMETHING HAS FAILED...')
+      })
+    
+    //To clear the input field
+    contactName.value = ''
+    contactEmail.value = ''
+    contactProject.value = '' 
     }
     
 
