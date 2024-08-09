@@ -17,8 +17,8 @@
   /* Change the first number */
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
   --gradient-color: linear-gradient(180deg,
-                      hsla(356, 48%, 72%, 0),
-                      hsla(356, 65%, 65%, 1));
+                      hsla(207, 48%, 72%, 0),
+                      hsla(207, 65%, 65%, 1));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -404,6 +404,23 @@ body.dark-theme {
 .home__info-number{
  font-size: var(--h1-font-size);
  font-weight: var(--font-semi-bold);
+}
+
+.download-btn {
+  display: flex;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
 }
 
 
