@@ -325,7 +325,7 @@ body.dark-theme {
 }
 
 .home__perfil{
-  width: 170px;
+  width: 100%;
   height: 260px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
@@ -737,7 +737,7 @@ body.dark-theme {
 }
 
 .testimonial__description{
-  font-size: var(--title-font);
+  font-size: var(--smaller-font-size);
   color: var(--text-color);
   margin-bottom: 1.5rem;
 }
