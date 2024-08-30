@@ -1264,7 +1264,7 @@ body.dark-theme {
   }
 
   .home__perfil img{
-    width: 300px;
+    width: 400px;
   }
 
   .home__shape-waves{
@@ -1406,7 +1406,7 @@ body.dark-theme {
   }
 
   .testimonial__description{
-    font-size: var(--h2-font-size);
+    font-size: var(--body-font);
     margin-bottom: 2rem;
   }
 
