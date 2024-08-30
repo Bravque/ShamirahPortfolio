@@ -1248,7 +1248,7 @@ body.dark-theme {
   }
 
   .home__title{
-    font-size: var(--biggest-font-size);
+    font-size: var(--h1-font-size);
   }
 
   .home__blob{
