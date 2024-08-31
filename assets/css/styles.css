@@ -325,7 +325,7 @@ body.dark-theme {
 }
 
 .home__perfil{
-  width: 100%;
+  width: 180px;
   height: 260px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
@@ -1109,7 +1109,7 @@ body.dark-theme {
   }
 
   .home__info{
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .home__info-description{
@@ -1211,7 +1211,7 @@ body.dark-theme {
   }
 
   .home__title{
-    font-size: 2.25rem;
+    font-size: var(--h2-font-size);
   }
 
   .scrollup{
@@ -1248,7 +1248,7 @@ body.dark-theme {
   }
 
   .home__title{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
   }
 
   .home__blob{
@@ -1294,7 +1294,7 @@ body.dark-theme {
   .home__info{
     grid-template-rows: repeat(3, 130px);
     row-gap: 4rem;
-    margin-top: 16rem;
+    margin-top: 5rem;
   }
 
   .skills__container{
@@ -1402,7 +1402,7 @@ body.dark-theme {
     right: calc(50% - 5rem);
   }
   .testimonial__container .swiper-slide{
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
 
   .testimonial__description{
