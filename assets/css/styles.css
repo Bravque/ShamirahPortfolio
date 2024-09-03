@@ -1402,7 +1402,7 @@ body.dark-theme {
     right: calc(50% - 5rem);
   }
   .testimonial__container .swiper-slide{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .testimonial__description{
