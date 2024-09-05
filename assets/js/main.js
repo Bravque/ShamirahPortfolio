@@ -196,4 +196,11 @@ sr.reveal('.skills__content:nth-child(1), .contact__content:nth-child(1)', {orig
 sr.reveal('.skills__content:nth-child(2), .contact__content:nth-child(2)', {origin: 'right'})
 sr.reveal('.qualification__content, .services__card', {interval: 100})
 
-
+/*==============typed js===========*/
+const typed = new Typed('.multiple-text', {
+  strings: ['Business Intelligence Analyst', 'Financial Analyst'],
+  typeSpeed: 100,
+  backSpeed: 50,
+  loop: true,
+  backDelay: 2000
+});

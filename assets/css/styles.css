@@ -43,6 +43,10 @@
   --z-fixed: 100;
 }
 
+.multiple-text{
+  color: teal;
+}
+
 /* Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
@@ -1215,7 +1219,7 @@ body.dark-theme {
   }
 
   .home__title{
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
   }
 
   .scrollup{
