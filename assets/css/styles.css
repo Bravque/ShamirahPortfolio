@@ -603,6 +603,11 @@ body.dark-theme {
   border-radius: 7.25rem;
   transition: background .4s; /* for dark mode animation */
 
+   /* Flexbox for vertical centering */
+   display: flex;
+   flex-direction: column;
+   justify-content: center; /* Vertically center content */
+   align-items: center;    
 }
 
 .services__card img{
@@ -1257,6 +1262,9 @@ body.dark-theme {
 
   .home__title{
     font-size: var(--h2-font-size);
+  }
+  .multiple-text{
+    font-size: 2rem;
   }
 
   .home__blob{
