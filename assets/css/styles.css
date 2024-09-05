@@ -607,6 +607,8 @@ body.dark-theme {
   color: var(--title-color);
   margin-bottom: .75rem;
   transition: transform .8s;
+  width: 5rem;
+
 }
 
 .services__title{
