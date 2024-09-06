@@ -81,7 +81,7 @@ const sendEmail = (e) =>{
     }
     else{
       //serviceID - template - #form - publickey
-      emailjs.sendForm('service_isqxmb8','template_heuoopa','#contact-form','zAIkK8STnqPvp0Kvl')
+      emailjs.sendForm('service_sb4e60v','template_1yp0yzs','#contact-form','FsUWLcw0EpGQMkDmx')
       .then(() =>{
         //show message and add color
 
